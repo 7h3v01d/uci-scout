@@ -21,7 +21,7 @@
 
 ---
 
-UCI Scout crawls your Python project, discovers every API and entry point an AI agent could use, scores how ready your code is for [UCI (Universal Capability Interface)](https://github.com/uci-protocol) integration, and generates a manifest scaffold to get you started — without touching a single line of your existing code.
+UCI Scout crawls your Python project, discovers every API and entry point an AI agent could use, scores how ready your code is for [UCI (Universal Capability Interface)](https://github.com/7h3v01d/uci-protocol) integration, and generates a manifest scaffold to get you started — without touching a single line of your existing code.
 
 ```bash
 python scout.py /your/project --full
@@ -47,7 +47,7 @@ python scout.py /your/project --full
 
 ## What is UCI?
 
-[UCI (Universal Capability Interface)](https://github.com/uci-protocol) is an open protocol that lets AI agents discover and safely invoke capabilities in your software — with built-in governance, risk controls, and audit trails. Think of it as a typed, governed API contract between your app and any AI agent that wants to use it.
+[UCI (Universal Capability Interface)](https://github.com/7h3v01d/uci-protocol) is an open protocol that lets AI agents discover and safely invoke capabilities in your software — with built-in governance, risk controls, and audit trails. Think of it as a typed, governed API contract between your app and any AI agent that wants to use it.
 
 UCI Scout is the fastest way to find out what a UCI integration would look like for *your* project, before you write any integration code.
 
@@ -296,7 +296,7 @@ Apache 2.0 — see [LICENSE](LICENSE)
 
 <div align="center">
 
-Built by Leon Priest · companion tool for [UCI Protocol v0.1](https://github.com/uci-protocol)
+Built by Leon Priest · companion tool for [UCI Protocol v0.1](https://github.com/7h3v01d/uci-protocol)
 
 *If UCI Scout saved you time, consider starring the repo — it helps other developers find it.*
 
