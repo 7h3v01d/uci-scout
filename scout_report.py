@@ -126,12 +126,12 @@ def _render_ep_section(
 
 def render_report(result: "CrawlResult") -> None:
     print()
-    print(bold(cyan("  ██████╗██████╗ ███████╗███████╗██████╗ ")))
-    print(bold(cyan(" ██╔════╝██╔══██╗██╔════╝██╔════╝██╔══██╗")))
-    print(bold(cyan(" ██║     ██████╔╝█████╗  █████╗  ██████╔╝")))
-    print(bold(cyan(" ██║     ██╔══██╗██╔══╝  ██╔══╝  ██╔═══╝ ")))
-    print(bold(cyan(" ╚██████╗██║  ██║███████╗███████╗██║      ")))
-    print(bold(cyan("  ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝      ")))
+    print(bold(cyan(" ███████╗ ██████╗ ██████╗ ██╗   ██╗████████╗ ")))
+    print(bold(cyan(" ██╔════╝██╔════╝██╔═══██╗██║   ██║╚══██╔══╝")))
+    print(bold(cyan(" ███████╗██║     ██║   ██║██║   ██║   ██║")))
+    print(bold(cyan(" ╚════██║██║     ██║   ██║██║   ██║   ██║")))
+    print(bold(cyan(" ███████║╚██████╗╚██████╔╝╚██████╔╝   ██║ ")))
+    print(bold(cyan(" ╚══════╝ ╚═════╝ ╚═════╝  ╚═════╝    ╚═╝")))
     print(f"  {dim('UCI Scout')}  {dim('v' + result.scout_version)}")
     print()
 
