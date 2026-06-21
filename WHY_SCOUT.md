@@ -94,6 +94,6 @@ Point. Scan. Ship.
 
 ---
 
-*Leon Priest — Brisbane, Australia*
+*Leon Priest*
 *github.com/7h3v01d*
 *UCI Scout v0.1 — Apache 2.0*
